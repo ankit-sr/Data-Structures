@@ -13,14 +13,12 @@
 			 5		20
 		   /  \    /  \
 		 12   8  14   24
-	
-	is a binary tree in which 5 and 20 are the left and right child of the root node 10.
-	While, (12, 8), (14, 24) are the left and right child nodes of 5 and 20 respectively.
-	
-	Note that, 12, 8, 14, 24 are the leaf nodes and thus does not have any child.
-	They contain NULL in the left and right pointers.
-	
 
+	is a binary tree in which 5 and 20 are the left and right child of the root node 10.
+	While, (12, 8), (14, 7) are the left and right child nodes of 5 and 20 respectively.
+	
+	Note that, 12, 8, 14, 7 are the leaf nodes and thus does not have any child.
+	They contain NULL in the left and right pointers.
 */
 
 // Code implementation.
