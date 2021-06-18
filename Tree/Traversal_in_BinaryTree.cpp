@@ -6,9 +6,9 @@
 		
 	1. Preorder Traversal - In this traversing method, we follow [ ROOT, LEFT CHILD, RIGHT CHILD] methadology.
 		For example : if binary tree is
-					 10
-				   /   \
-				 5		20
+			        10
+			      /    \
+			     5	    20
 			   /  \    /  \
 			 12   8  14   24   
 			 
@@ -18,11 +18,11 @@
 			
 	2. Inorder Traversal - In this traversing method, we follow [ LEFT CHILD, ROOT, RIGHT CHILD] methadology.
 		For example : if binary tree is
-					 10
-				   /   \
-				 5		20
+			        10
+			      /    \
+			     5	    20
 			   /  \    /  \
-			 12   8  14   24   
+			 12   8  14   24    
 			 
 			then the preorder traversal will be 
 				12, 5, 8, 10, 14, 20, 24
@@ -30,9 +30,9 @@
 			
 	3. Postorder Traversal - In this traversing method, we follow [ LEFT CHILD, RIGHT CHILD, ROOT] methadology.
 		For example : if binary tree is
-					 10
-				   /   \
-				 5		20
+			        10
+			      /    \
+			     5	    20
 			   /  \    /  \
 			 12   8  14   24   
 			 
@@ -156,3 +156,7 @@ int main()
     
     return 0;
 }
+
+/*
+	Time complexity of Preorder, Inorder ande Postorder traversal: O(n)
+	Space Complexity: O(h), where 'h' is the height of the tree.
