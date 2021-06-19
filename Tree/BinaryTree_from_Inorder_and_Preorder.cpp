@@ -18,11 +18,11 @@
 		Inorder traversal: 12, 5, 8, 10, 14, 20, 24
 		Tree constructed from given data will be:
 		
-					 10
-				   /   \
-				 5		20
+			        10
+			      /    \
+			     5	    20
 			   /  \    /  \
-			 12   8  14   24 	
+			 12   8  14   24   
 
 */
 
