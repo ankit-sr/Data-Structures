@@ -1,3 +1,34 @@
+/*
+	The code provided below implements the construction of binary tree from
+	postorder and inorder traversals.
+	 Poxtorder Traversal - In this traversing method, we follow [ LEFT CHILD, RIGHT CHILD, ROOT] methadology.
+	 Inorder Traversal - In this traversing method, we follow [ LEFT CHILD, ROOT, RIGHT CHILD] methadology.
+	 
+	The concept for constructing the tree is :
+		The postorder traversal provides the root node at last after the subtree nodes, while 
+		in inorder traversal, the left side of the data in array are the data of nodes of left subtree
+		and that to the right are the data of nodes of right subtree.
+		So, getting the data from the postorder we add it to the tree then,
+		we search for it in the inorder array
+		we repeat the process knowing that the left side is the left subtree
+		and right side is the right subtree.
+		We traverse from right to left in postorder array accessing the root node first.
+		
+	For example:
+		Postorder traversal: 12, 8, 5, 14, 25, 20, 10
+		Inorder traversal: 12, 5, 8, 10, 14, 20, 24
+		Tree constructed from given data will be:
+		
+			        10
+			      /    \
+			     5	    20
+			   /  \    /  \
+			 12   8  14   24   
+
+*/
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -28,13 +59,13 @@ int main(){
 
 Node *createBinary_from_inorder_postorder(int inorder[], int postorder[], int start, int end)
 {
-	int postIndex = end;
+	static int postIndex = end;
 	
 	if(start>end){
 		return NULL;
 	}	
 	
-	Node *newNode = new Node(postIndex--);
+	Node *newNode = new Node(postorder[postIndex--]);
 	
 	if(start == end){
 		return newNode;
@@ -44,6 +75,8 @@ Node *createBinary_from_inorder_postorder(int inorder[], int postorder[], int st
 	
 	newNode->right = createBinary_from_inorder_postorder(inorder, postorder, inIndex+1, end);
 	newNode->left = createBinary_from_inorder_postorder(inorder, postorder, start, inIndex-1);
+	
+	return newNode;
 }
 
 int search(int inorder[], int start, int end, int data){
