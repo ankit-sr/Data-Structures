@@ -29,7 +29,7 @@ struct node
   struct node *next;
 };
 
-// Method to insert a new node in 
+
 void append(struct node ** ,int );
 void display(struct node *);
 void del(struct node **,int);
