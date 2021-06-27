@@ -4,7 +4,7 @@
 		2. All the nodes(data) to the right of the parent node should be greater than the parent node data.
 		
 	For example: 
-					10
+				10
 			      /    \
 			     5	    20
 			   /  \    /  \
