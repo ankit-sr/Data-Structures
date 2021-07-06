@@ -7,7 +7,7 @@ This repository contains the algorithms and practice implementations of various 
 - [Doubly Linked List Implementation](Linked_List/Doubly_LinkedList.c)
 - [Linked List Implementation](Linked_List/Linked_List.c)
 
-### Sorting(Sorting/)
+### [Sorting](Sorting/)
 - [Quick Sort](Sorting/Quick_Sort.cpp)
 
 ### [Stack](Stack/)
