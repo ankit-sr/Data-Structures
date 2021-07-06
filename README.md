@@ -7,6 +7,8 @@ This repository contains the algorithms and practice implementations of various 
 - [Doubly Linked List Implementation](Linked_List/Doubly_LinkedList.c)
 - [Linked List Implementation](Linked_List/Linked_List.c)
 
+### [Stack](Stack/)
+- [Dynamic Stack Implementation](Dynamic_Stack_Implementation.cpp)
 
 ### [Tree](Tree/)
 - [Binary Tree - Create method](Tree/Binary_Tree_Contruction.cpp)
