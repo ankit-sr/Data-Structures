@@ -154,6 +154,6 @@ int Node::height(Node *root){
 
 /*
 	For height method using recursion
-	Time Complexity: O(2^n)
+	Time Complexity: O(n)
 	Space Complexity: O(n) 
 */
