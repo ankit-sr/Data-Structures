@@ -127,7 +127,7 @@ int main()
         cout<<preorder[i]<<" ";
     }
 
-    cout<<"Height of the tree : "<<node.height(root);
+    cout<<"\nHeight of the tree : "<<node.height(root);
 
     return 0;
 }
@@ -144,8 +144,8 @@ int Node::height(Node *root){
     int leftdepth = 0, rightdepth = 0;
 
 	// Recursively find the left and right subtree heights.
-    leftdepth = leftdepth + height(root->left);
-    rightdepth = rightdepth + height(root->right);
+    leftdepth = height(root->left);
+    rightdepth = height(root->right);
 	
 	// Return either left subtree hieght or right subtree hieght 
 	// whichever is greater.
