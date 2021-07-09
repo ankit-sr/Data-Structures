@@ -5,9 +5,9 @@ Height of a Binary tree is the total depth i.e. the maximum number of nodes from
 			      /    \
 			     5	    20
 			   /  \    /  \
-			 12   8  14   24  
-			       \
-				   34
+			 12    8  14   24  
+			        \
+				 34
 				   
 			then the height of the tree will be 4 as from root (10) to 
 			leaf nodes, their are correspnding number of nodes
