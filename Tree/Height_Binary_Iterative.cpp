@@ -1,4 +1,27 @@
- #include <bits/stdc++.h>
+/*
+Height of a Binary tree is the total depth i.e. the maximum number of nodes from root to any leaf node.
+		For example : if binary tree is
+			        10
+			      /    \
+			     5	    20
+			   /  \    /  \
+			 12    8  14   24  
+			        \
+				 34
+				   
+			then the height of the tree will be 4 as from root (10) to 
+			leaf nodes, their are correspnding number of nodes
+			12 - 3 nodes
+			34 - 4 nodes
+			14 - 3 nodes
+			24 - 3 nodes
+			
+			So, we choose the maximum number(4) as the maximum height/depth of tree.
+*/
+
+//Implementation 
+
+#include <bits/stdc++.h>
 using namespace std;
 
 class BinaryTree
