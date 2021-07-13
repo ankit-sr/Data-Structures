@@ -2,6 +2,11 @@
 
 This repository contains the algorithms and practice implementations of various data structures.
 
+### Graph(Graph/)
+- [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
+- [Graph Implementation (All Methods)](Graph/Graph_Implementation.c)
+
+
 ### [Linked List](Linked_List/)
 - [Circular Linked List Implementation](Linked_List/Circular-Linked_List_Implementation.cpp)
 - [Doubly Linked List Implementation](Linked_List/Doubly_LinkedList.c)
