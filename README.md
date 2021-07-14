@@ -2,7 +2,7 @@
 
 This repository contains the algorithms and practice implementations of various data structures.
 
-### Graph(Graph/)
+### [Graph](Graph/)
 - [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
 - [Graph Implementation (All Methods)](Graph/Graph_Implementation.c)
 
