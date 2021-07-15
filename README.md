@@ -4,6 +4,7 @@ This repository contains the algorithms and practice implementations of various 
 
 ### [Graph](Graph/)
 - [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
+- [Depth First Search Treaversal in Graph](Graph/Depth_First_Search.cpp)
 - [Graph Implementation (All Methods)](Graph/Graph_Implementation.c)
 
 
