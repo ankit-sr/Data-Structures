@@ -1,4 +1,3 @@
-
 /*
     Breadth First Search Traversal is a popular traversal method in graph.
     It uses queue data structure for storing elements before output.
@@ -93,9 +92,9 @@ int main(){
     graph.breadth_first_search();
     
     
-    /*
-        Time Complexity - O(|V| + |E|)
-        Space Complexity - O(|V|)
-        where V is the number of vertices and E is the number of edges present in the graph.
-    */
+/*
+    Time Complexity - O(|V| + |E|)
+    Space Complexity - O(|V|)
+    Where V is the number of vertices and E is the number of edges present in the graph.
+*/
 
