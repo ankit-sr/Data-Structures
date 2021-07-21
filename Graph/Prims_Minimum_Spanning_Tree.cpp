@@ -1,16 +1,33 @@
+/*
+    Prim's algorithm finds the minimum spanning tree for the weighted undirected graph.
+
+    It finds a subset of the edges that forms a tree that includes every vertex, where 
+    the total weight of all the edges in the tree is minimized. The algorithm operates by 
+    building this tree one vertex at a time, from an arbitrary starting vertex, at each step 
+    adding the cheapest possible connection from the tree to another vertex.
+
+*/
+
+// Implementation
 #include<bits/stdc++.h>
 using namespace std;
 
+// Steructure of Graph
 class Graph{
+
+    // Number of vertices
     int vertices;
 
+    // Adjacency Matrix 
     vector<vector<int>> adjacency;
 
     public:
+        // Constructor
         Graph(int vertices)
         {
             this->vertices = vertices;
 
+            // Initailizing the whole matrix with infinity i.e. INT_MAX
             adjacency.assign(vertices, vector<int>(vertices, INT_MAX));
         }
 
@@ -20,12 +37,17 @@ class Graph{
         void printMST(int[]);
 };
 
+
+// Method to add an edge between two vertices
 void Graph::addEdge(int source, int destination, int weight)
 {
+    // Since the graph is undirected, so the matrix formed will be
+    // similar to the diagonal.
     adjacency[source][destination] = weight;
     adjacency[destination][source] = weight;
 }
 
+// Mehtod to find the minimum weighted adjacent not-included edge from the graph.
 int Graph::findMinKey(int key[], bool mstSet[]){
 
     int min_index, min = INT_MAX;
@@ -39,6 +61,7 @@ int Graph::findMinKey(int key[], bool mstSet[]){
     return min_index;
 }
 
+// Method to apply Prim's Algorithm
 void Graph::primsMST()
 {
     // Array to store the vertex with respective source vertex as index and destination vertex as value.
@@ -76,12 +99,16 @@ void Graph::primsMST()
             // 3. adjacency[u][v] < key[v]
             if( !mstSet[v] && adjacency[u][v]!=INT_MAX && adjacency[u][v] < key[v])
             {
+                // Update/Include the vertex in the MST with adjacent source vertex as index
                 MST[v] = u;
+
+                // Updte the key array
                 key[v] = adjacency[u][v];
             }
         }
     }
 
+    // Print the created mimimum spanning tree
     printMST(MST);
 }
 
