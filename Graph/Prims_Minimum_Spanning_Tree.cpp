@@ -116,3 +116,19 @@ int main(){
 
     return 0;
 }
+
+/*
+Output of above program:
+    The minimum spanning tree for the created graph will be : 
+    Edge     Weight
+    0 - 1     2
+    0 - 2     4
+    1 - 3     3
+    1 - 4     1
+*/
+
+/*
+    Time Complexity: O(V^2)
+    Space Complexity: O(V)
+    where V is the number of vertices of graph.
+*/
