@@ -8,6 +8,7 @@ This repository contains the algorithms and practice implementations of various 
 - [Dijkstra's Shortest Path Algorithm](Graph/Dijkstras_Shortest_Path.cpp)
 - [Floyd Warshall Shortest Path Alghorithm](Graph/Floyd_Warshall_Shortest_Path.cpp)
 - [Graph Implementation (All Methods)](Graph/Graph_Implementation.c)
+- [Kruskals Minimum Spanning Tree Algorithm.cpp](Graph/Kruskals_Minimum_Spanning_Tree.cpp)
 - [Prim's Minimum Spanning Tree Algorithm](Graph/Prims_Minimum_Spanning_Tree.cpp)
 
 
