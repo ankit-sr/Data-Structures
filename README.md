@@ -2,6 +2,10 @@
 
 This repository contains the algorithms and practice implementations of various data structures.
 
+### [Array](Array/)
+- [Array Implementation](Array/Array_Implementation.cpp)
+
+
 ### [Graph](Graph/)
 - [Bellman Ford Shortest Path Algorithm](Graph/Bellman_Ford_Shortest_Path.cpp)
 - [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
