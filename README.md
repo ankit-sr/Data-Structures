@@ -33,8 +33,8 @@ This repository contains the algorithms and practice implementations of various 
 - [Binary Search Tree Implementation](Tree/BinarySearchTree_Insertion_Deletion.cpp)
 - [Binary Tree from Inorder and Preorder Traversals](Tree/BinaryTree_from_Inorder_and_Preorder.cpp)
 - [Binary Tree from Inorder and Postorder Traversals](Tree/BinaryTree_from_Inorder_and_Postorder.cpp)
+- [Count Leaf Nodesin a Binary Tree](Tree/Count_Leaf_Nodes.cpp)
 - [Height of Binary Tree](Tree/Height_Binary_Tree.cpp)
 - [Height of Binary Tree - Iterative](Tree/Height_Binary_Iterative.cpp)
 - [Preorder Traversal Iterative](Tree/Preorder_Traversal_Iterative.cpp)
 - [Preorder, Inorder, Postorder traversals in Binary Tree](Tree/Traversal_in_BinaryTree.cpp)
-
