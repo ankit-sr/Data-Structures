@@ -9,6 +9,7 @@ This repository contains the algorithms and practice implementations of various 
 ### [Graph](Graph/)
 - [Bellman Ford Shortest Path Algorithm](Graph/Bellman_Ford_Shortest_Path.cpp)
 - [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
+- [Count Number of Leaf Nodes in Binary Tree](Graph/Count_Leaf_Nodes.cpp)
 - [Depth First Search Treaversal in Graph](Graph/Depth_First_Search.cpp)
 - [Dijkstra's Shortest Path Algorithm](Graph/Dijkstras_Shortest_Path.cpp)
 - [Floyd Warshall Shortest Path Alghorithm](Graph/Floyd_Warshall_Shortest_Path.cpp)
