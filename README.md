@@ -7,6 +7,7 @@ This repository contains the algorithms and practice implementations of various 
 
 
 ### [Graph](Graph/)
+- [Articulation points in an Undirected Graph](Graph/Articulation_Point.cpp)
 - [Bellman Ford Shortest Path Algorithm](Graph/Bellman_Ford_Shortest_Path.cpp)
 - [Breadth First Search Treaversal in Graph](Graph/Breadth_First_Search.cpp)
 - [Count Number of Leaf Nodes in Binary Tree](Graph/Count_Leaf_Nodes.cpp)
