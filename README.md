@@ -26,6 +26,7 @@ This repository contains the algorithms and practice implementations of various 
 
 ### [Sorting](Sorting/)
 - [Quick Sort](Sorting/Quick_Sort.cpp)
+- [Merge Sort - Linked List](Sorting/merge_sort_linked_list.cpp)
 
 ### [Stack](Stack/)
 - [Dynamic Stack Implementation](Dynamic_Stack_Implementation.cpp)
